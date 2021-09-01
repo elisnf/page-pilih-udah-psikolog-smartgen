@@ -12,13 +12,21 @@ body {
     src: url(Lemonada-VariableFont_wght.ttf);
   }
 
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+       opacity: 1;
+    }
+  }
+
 .home-psikolog {
     position: absolute;
-left: 9.19%;
+left: 30px;
 right: 83.84%;
-top: 5.55%;
+top: 41px;
 bottom: 91.45%;
-
 color: #204051;
 }
 
@@ -26,7 +34,7 @@ color: #204051;
     position: absolute;
 width: 231px;
 height: 66px;
-left: calc(50% - 231px/2 - 4px);
+left: 65px;
 top: 27px;
 
 font-family: Smartgen;
@@ -102,11 +110,12 @@ color: #18191F;
 .spesialis {
     
 position: absolute;
-left: 1px;
+left: 22px;
 right: 124px;
 top: 42.97%;
 bottom: 41.41%;
 
+text-align: left;
 font-family: Lemonada;
 font-style: normal;
 font-weight: normal;
@@ -167,6 +176,7 @@ border-radius: 16px;
     top: 20.31%;
     bottom: 45.02%;
     
+    text-align: left;
     font-family: Lemonada;
     font-style: normal;
     font-weight: bold;
@@ -180,11 +190,12 @@ border-radius: 16px;
 
 .spesialis-dua {
     position: absolute;
-left: 22px;
-right: 169px;
-top: 42.97%;
-bottom: 41.03%;
+    left: 22px;
+    right: 124px;
+    top: 42.97%;
+    bottom: 41.41%;
 
+    text-align: left;
 font-family: Lemonada;
 font-style: normal;
 font-weight: normal;
@@ -243,6 +254,7 @@ right: 103px;
 top: 20.31%;
 bottom: 45.31%;
 
+text-align: left;
 font-family: Lemonada;
 font-style: normal;
 font-weight: bold;
@@ -256,10 +268,10 @@ color: #838383;
 
 .spesialis-tiga {
     position: absolute;
-left: 22px;
-right: 115px;
-top: 42.97%;
-bottom: 41.41%;
+    left: 1px;
+    right: 124px;
+    top: 42.97%;
+    bottom: 41.41%;
 
 font-family: Lemonada;
 font-style: normal;
@@ -287,10 +299,86 @@ bottom: 17.97%;
 }
 .photo-psikolog-tiga {
     position: absolute;
-    width: 126px;
+    width: 120px;
     height: 126px;
     left: 200px;
-    top: 0px;
+    top: -2px;
 
 transform: matrix(-1, 0, 0, 1, 0, 0);
 }
+
+.button-disable-tiga {
+    position: absolute;
+width: 324px;
+height: 128px;
+left: 18px;
+top: 547px;
+
+background: #ECFAF1;
+/* Colors / Black */
+
+border: 2px solid #18191F;
+box-sizing: border-box;
+border-radius: 16px;
+
+}
+
+.nama-psikolog-empat {
+    position: absolute;
+left: 22px;
+right: 121px;
+top: 20.31%;
+bottom: 45.31%;
+
+font-family: Lemonada;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+color: #838383;
+}
+
+.spesialis-empat {
+    position: absolute;
+    left: 22px;
+    right: 124px;
+    top: 42.97%;
+    bottom: 41.41%;
+
+    text-align: left;
+font-family: Lemonada;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 24px;
+justify-content: left;
+color: #838383;
+}
+
+.photo-psikolog-empat {
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    left: 200px;
+    top: 11px;
+    right: 50px;
+  
+  	opacity: 10;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.logo-tiga {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+left: 6.94%;
+right: 81.64%;
+top: 63.28%;
+bottom: 17.97%;
+
+}
+
+
